@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 AGENT SYSTEM INSTRUCTIONS & OPERATIONAL BEHAVIOR
 
 You are the Lead Frontend Engineer & Creative Director for this agency project. You do not just write code; you autonomously enforce architectural patterns, performance constraints, and UI/UX standards across every task.
@@ -91,3 +92,21 @@ fontFamily: {
   sans: ['var(--font-inter)', 'sans-serif'],
   mono: ['var(--font-jetbrains)', 'monospace'],
 }
+=======
+# tectoncraft.com
+
+Web-design studio site for clients in Germany and Greece. Full product spec: `docs/SPECS.md`.
+
+## Stack
+Next.js (App Router, TS strict), Tailwind v4, pnpm, next-intl (en/de/el), next-themes.
+
+## Commands
+- `pnpm dev` / `pnpm build`
+- `pnpm lint && pnpm typecheck && pnpm build` must pass before every commit
+
+## Conventions
+- Locale routes live under `app/[locale]`; locale detection is `proxy.ts` (SPEC §2). Use `@/i18n/navigation` links.
+- All user-facing text goes in `messages/{en,de,el}.json` with identical keys.
+- Business data (pricing, add-ons, site info) lives in `config/*.ts`; display copy lives in messages.
+- Monochrome only; tokens in `app/globals.css`. Sharp corners (4px), 1px `--line` borders, no shadows.
+>>>>>>> 09f129e (Phase 1: foundation scaffold)

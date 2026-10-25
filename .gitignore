@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Next.js build output and dependencies
 /.next/
 /out/
@@ -23,3 +24,15 @@
 
 # TypeScript build info
 *.tsbuildinfo
+=======
+node_modules
+.next
+out
+.env
+.env.local
+.env*.local
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+.vercel
+>>>>>>> 09f129e (Phase 1: foundation scaffold)
