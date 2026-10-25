@@ -5,6 +5,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
+import { loaderFlagScript } from "@/lib/loader-flag";
 import { ThemeProvider } from "@/components/theme-provider";
 import { siteConfig } from "@/config/site";
 import { routing } from "@/i18n/routing";
@@ -52,6 +53,12 @@ export default async function LocaleLayout({
       suppressHydrationWarning
       className={`${display.variable} ${body.variable}`}
     >
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: loaderFlagScript }} />
+        <noscript>
+          <style>{"[data-reveal]{opacity:1!important;transform:none!important}"}</style>
+        </noscript>
+      </head>
       <body>
         <ThemeProvider
           attribute="class"

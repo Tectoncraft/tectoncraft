@@ -5,7 +5,11 @@
   },
   "Hero": {
     "title": "Websites, built on solid ground.",
-    "sub": "Design, development and 3D motion for businesses in Germany and Greece. Live in weeks, built to last."
+    "sub": "Design, development and 3D motion for businesses in Germany and Greece. Live in weeks, built to last.",
+    "primary": "See packages",
+    "secondary": "Book a free call",
+    "trust": "From {price} · Fixed prices · EN / DE / EL",
+    "scroll": "Scroll"
   },
   "Nav": {
     "main": "Main navigation",
@@ -60,5 +64,178 @@
     "impressum": "Impressum",
     "privacy": "Privacy",
     "terms": "Terms"
+  },
+  "Intro": {
+    "statement": "We craft fast, multilingual websites that look sharp, rank well and turn visitors into customers.",
+    "fixed": {
+      "title": "Fixed prices",
+      "text": "You know the cost before we start."
+    },
+    "languages": {
+      "title": "Three languages",
+      "text": "English, German and Greek, written by humans."
+    },
+    "motion": {
+      "title": "Motion that sells",
+      "text": "3D scroll animations that make you memorable."
+    },
+    "gdpr": {
+      "title": "GDPR-ready",
+      "text": "EU hosting, cookie consent and legal pages set up."
+    }
+  },
+  "Process": {
+    "title": "From call to launch.",
+    "call": {
+      "title": "Call",
+      "time": "Day 1",
+      "text": "A free call. We learn your goals, audience and budget."
+    },
+    "design": {
+      "title": "Design",
+      "time": "Week 1",
+      "text": "We design the key pages and review them with you until they feel right."
+    },
+    "build": {
+      "title": "Build",
+      "time": "Weeks 2–4",
+      "text": "We develop, translate and connect everything. Fast, accessible, SEO-ready."
+    },
+    "launch": {
+      "title": "Launch",
+      "time": "Final week",
+      "text": "Final checks, go-live and handover. We stay close after launch."
+    }
+  },
+  "Portfolio": {
+    "title": "Selected work",
+    "all": "All work",
+    "project": "Project {n}",
+    "soon": "Coming soon"
+  },
+  "Pricing": {
+    "title": "Fixed prices. Pick your foundation.",
+    "sub": "One-time price per package. Add what you need on top.",
+    "popular": "Most popular",
+    "choose": "Choose {name}",
+    "delivery": "Delivery: ~{days} days",
+    "vat": {
+      "net": "One-time prices, plus VAT.",
+      "gross": "One-time prices, incl. VAT.",
+      "small": "One-time prices. No VAT is charged under the small-business exemption."
+    },
+    "custom": {
+      "title": "Need more than Signature?",
+      "text": "Larger platforms, portals, integrations or a bigger budget — let's find the right price together.",
+      "cta": "Let's negotiate"
+    },
+    "packages": {
+      "starter": {
+        "name": "Starter",
+        "bestFor": "Best for a single-page presence.",
+        "features": [
+          "1-page site, up to 5 sections",
+          "Responsive design",
+          "1 language",
+          "Contact form",
+          "Basic SEO",
+          "SSL included",
+          "2 revision rounds"
+        ]
+      },
+      "business": {
+        "name": "Business",
+        "bestFor": "Best for local businesses and services.",
+        "features": [
+          "Up to 5 pages",
+          "1 language",
+          "Contact form + Google Maps",
+          "Google Business Profile link",
+          "Basic SEO",
+          "Analytics (consent-based)",
+          "2 revision rounds"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "bestFor": "Best for growing companies.",
+        "features": [
+          "Up to 10 pages",
+          "2 languages",
+          "Blog / CMS: edit content yourself",
+          "2D scroll animations",
+          "Advanced on-page SEO",
+          "Cookie consent",
+          "3 revision rounds"
+        ]
+      },
+      "commerce": {
+        "name": "Commerce",
+        "bestFor": "Best for selling online.",
+        "features": [
+          "Online shop, up to 50 products",
+          "Stripe, PayPal, Klarna, Viva Wallet",
+          "Shipping & VAT setup",
+          "2 languages",
+          "CMS",
+          "3 revision rounds"
+        ]
+      },
+      "signature": {
+        "name": "Signature",
+        "bestFor": "Best for brands that want to stand out.",
+        "features": [
+          "Up to 15 pages",
+          "All 3 languages",
+          "Custom AI-generated 3D scroll-animation hero",
+          "Branded loader",
+          "Advanced SEO",
+          "Accessibility (WCAG AA)",
+          "3 months priority support",
+          "4 revision rounds"
+        ]
+      }
+    }
+  },
+  "Addons": {
+    "title": "Make it yours.",
+    "sub": "Pick a package, add what you need and see the total instantly."
+  },
+  "Faq": {
+    "title": "Good to know.",
+    "items": [
+      {
+        "q": "How long does a project take?",
+        "a": "Typically one to five weeks, depending on the package. Starter takes about 7 days, Signature about 35. We confirm a date before we start."
+      },
+      {
+        "q": "What do I need to provide?",
+        "a": "Your logo, texts and images, if you have them. No texts yet? Add our copywriting. We guide you through everything else."
+      },
+      {
+        "q": "Who owns the website?",
+        "a": "You do. Once the final payment is made, the design, code and content are yours."
+      },
+      {
+        "q": "How does payment work?",
+        "a": "50% upfront to start, 50% at launch. Fixed price, no surprise invoices."
+      },
+      {
+        "q": "What about hosting?",
+        "a": "We host in the EU with SSL and backups from {hosting}/month, or hand everything over to your own provider. Your choice."
+      },
+      {
+        "q": "Can I change things after launch?",
+        "a": "Yes. Small fixes are covered by your revision rounds. After that, choose a care plan or book work as needed."
+      },
+      {
+        "q": "Which languages do you build in?",
+        "a": "English, German and Greek, written by humans and not machine-translated. Extra languages are available as add-ons."
+      },
+      {
+        "q": "Are prices with or without VAT?",
+        "a": "See the note under the pricing. We state it clearly on every quote and invoice."
+      }
+    ]
   }
 }

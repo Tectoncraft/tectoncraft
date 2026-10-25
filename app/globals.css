@@ -280,3 +280,28 @@ h3 {
     opacity: 0.6;
   }
 }
+
+@keyframes scroll-cue {
+  0% { transform: scaleY(0); transform-origin: top; }
+  50% { transform: scaleY(1); transform-origin: top; }
+  51% { transform: scaleY(1); transform-origin: bottom; }
+  100% { transform: scaleY(0); transform-origin: bottom; }
+}
+
+/* First-visit loader (SPEC §5). Shown only when the inline script flags <html data-loader>. */
+.intro-loader {
+  display: none;
+}
+html[data-loader] .intro-loader {
+  display: block;
+}
+@keyframes slab-left {
+  0% { transform: translateX(-80px); opacity: 0; }
+  70% { transform: translateX(3px); opacity: 1; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+@keyframes slab-right {
+  0% { transform: translateX(80px); opacity: 0; }
+  70% { transform: translateX(-3px); opacity: 1; }
+  100% { transform: translateX(0); opacity: 1; }
+}

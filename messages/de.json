@@ -5,7 +5,11 @@
   },
   "Hero": {
     "title": "Websites mit festem Fundament.",
-    "sub": "Design, Entwicklung und 3D-Animation für Unternehmen in Deutschland und Griechenland. In wenigen Wochen online – gebaut für Jahre."
+    "sub": "Design, Entwicklung und 3D-Animation für Unternehmen in Deutschland und Griechenland. In wenigen Wochen online – gebaut für Jahre.",
+    "primary": "Pakete ansehen",
+    "secondary": "Kostenloses Gespräch buchen",
+    "trust": "Ab {price} · Festpreise · EN / DE / EL",
+    "scroll": "Scrollen"
   },
   "Nav": {
     "main": "Hauptnavigation",
@@ -60,5 +64,178 @@
     "impressum": "Impressum",
     "privacy": "Datenschutz",
     "terms": "AGB"
+  },
+  "Intro": {
+    "statement": "Wir bauen schnelle, mehrsprachige Websites, die scharf aussehen, gut ranken und Besucher zu Kunden machen.",
+    "fixed": {
+      "title": "Festpreise",
+      "text": "Sie kennen die Kosten, bevor wir starten."
+    },
+    "languages": {
+      "title": "Drei Sprachen",
+      "text": "Englisch, Deutsch und Griechisch, von Menschen geschrieben."
+    },
+    "motion": {
+      "title": "Animation, die verkauft",
+      "text": "3D-Scroll-Animationen, die in Erinnerung bleiben."
+    },
+    "gdpr": {
+      "title": "DSGVO-konform",
+      "text": "EU-Hosting, Cookie-Einwilligung und Rechtstexte eingerichtet."
+    }
+  },
+  "Process": {
+    "title": "Vom Gespräch zum Launch.",
+    "call": {
+      "title": "Gespräch",
+      "time": "Tag 1",
+      "text": "Ein kostenloses Gespräch. Wir lernen Ihre Ziele, Zielgruppe und Ihr Budget kennen."
+    },
+    "design": {
+      "title": "Design",
+      "time": "Woche 1",
+      "text": "Wir gestalten die wichtigsten Seiten und stimmen sie mit Ihnen ab, bis alles passt."
+    },
+    "build": {
+      "title": "Umsetzung",
+      "time": "Woche 2–4",
+      "text": "Wir entwickeln, übersetzen und verbinden alles. Schnell, barrierearm, SEO-bereit."
+    },
+    "launch": {
+      "title": "Launch",
+      "time": "Letzte Woche",
+      "text": "Abschlusstests, Go-live und Übergabe. Auch danach sind wir für Sie da."
+    }
+  },
+  "Portfolio": {
+    "title": "Ausgewählte Projekte",
+    "all": "Alle Projekte",
+    "project": "Projekt {n}",
+    "soon": "Demnächst"
+  },
+  "Pricing": {
+    "title": "Festpreise. Wählen Sie Ihr Fundament.",
+    "sub": "Einmaliger Preis pro Paket. Zusätzliches buchen Sie nach Bedarf.",
+    "popular": "Beliebteste Wahl",
+    "choose": "{name} wählen",
+    "delivery": "Lieferzeit: ca. {days} Tage",
+    "vat": {
+      "net": "Einmalige Preise, zzgl. MwSt.",
+      "gross": "Einmalige Preise, inkl. MwSt.",
+      "small": "Einmalige Preise. Gemäß Kleinunternehmerregelung wird keine Umsatzsteuer berechnet."
+    },
+    "custom": {
+      "title": "Mehr als Signature?",
+      "text": "Größere Plattformen, Portale, Integrationen oder mehr Budget – lassen Sie uns gemeinsam den richtigen Preis finden.",
+      "cta": "Preis verhandeln"
+    },
+    "packages": {
+      "starter": {
+        "name": "Starter",
+        "bestFor": "Ideal für den einseitigen Auftritt.",
+        "features": [
+          "1-Seiten-Website, bis zu 5 Abschnitte",
+          "Responsives Design",
+          "1 Sprache",
+          "Kontaktformular",
+          "Basis-SEO",
+          "SSL inklusive",
+          "2 Korrekturrunden"
+        ]
+      },
+      "business": {
+        "name": "Business",
+        "bestFor": "Ideal für lokale Unternehmen und Dienstleister.",
+        "features": [
+          "Bis zu 5 Seiten",
+          "1 Sprache",
+          "Kontaktformular + Google Maps",
+          "Link zum Google-Unternehmensprofil",
+          "Basis-SEO",
+          "Analytics (einwilligungsbasiert)",
+          "2 Korrekturrunden"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "bestFor": "Ideal für wachsende Unternehmen.",
+        "features": [
+          "Bis zu 10 Seiten",
+          "2 Sprachen",
+          "Blog / CMS: Inhalte selbst pflegen",
+          "2D-Scroll-Animationen",
+          "Erweiterte Onpage-SEO",
+          "Cookie-Einwilligung",
+          "3 Korrekturrunden"
+        ]
+      },
+      "commerce": {
+        "name": "Commerce",
+        "bestFor": "Ideal für den Verkauf im Netz.",
+        "features": [
+          "Online-Shop mit bis zu 50 Produkten",
+          "Stripe, PayPal, Klarna, Viva Wallet",
+          "Versand- und MwSt.-Einrichtung",
+          "2 Sprachen",
+          "CMS",
+          "3 Korrekturrunden"
+        ]
+      },
+      "signature": {
+        "name": "Signature",
+        "bestFor": "Ideal für Marken, die auffallen wollen.",
+        "features": [
+          "Bis zu 15 Seiten",
+          "Alle 3 Sprachen",
+          "Individueller, KI-generierter 3D-Scroll-Hero",
+          "Eigener Ladebildschirm",
+          "Erweiterte SEO",
+          "Barrierefreiheit (WCAG AA)",
+          "3 Monate Priority-Support",
+          "4 Korrekturrunden"
+        ]
+      }
+    }
+  },
+  "Addons": {
+    "title": "Machen Sie es zu Ihrem.",
+    "sub": "Paket wählen, Zusätze hinzufügen und die Summe sofort sehen."
+  },
+  "Faq": {
+    "title": "Gut zu wissen.",
+    "items": [
+      {
+        "q": "Wie lange dauert ein Projekt?",
+        "a": "In der Regel ein bis fünf Wochen, je nach Paket. Starter dauert etwa 7 Tage, Signature etwa 35. Vor dem Start bestätigen wir einen Termin."
+      },
+      {
+        "q": "Was muss ich liefern?",
+        "a": "Ihr Logo, Texte und Bilder, falls vorhanden. Noch keine Texte? Buchen Sie unser Copywriting. Alles Weitere begleiten wir."
+      },
+      {
+        "q": "Wem gehört die Website?",
+        "a": "Ihnen. Mit der Schlusszahlung gehören Design, Code und Inhalte Ihnen."
+      },
+      {
+        "q": "Wie läuft die Bezahlung?",
+        "a": "50 % zu Beginn, 50 % beim Launch. Festpreis, keine überraschenden Rechnungen."
+      },
+      {
+        "q": "Wie sieht es mit Hosting aus?",
+        "a": "Wir hosten in der EU mit SSL und Backups ab {hosting}/Monat – oder übergeben alles an Ihren eigenen Anbieter. Sie entscheiden."
+      },
+      {
+        "q": "Kann ich nach dem Launch etwas ändern?",
+        "a": "Ja. Kleine Korrekturen sind in Ihren Korrekturrunden enthalten. Danach wählen Sie ein Wartungspaket oder buchen Arbeiten nach Bedarf."
+      },
+      {
+        "q": "In welchen Sprachen bauen Sie?",
+        "a": "Englisch, Deutsch und Griechisch, von Menschen geschrieben und nicht maschinell übersetzt. Weitere Sprachen sind als Add-on möglich."
+      },
+      {
+        "q": "Gelten die Preise mit oder ohne MwSt.?",
+        "a": "Siehe Hinweis unter den Preisen. Wir weisen es in jedem Angebot und jeder Rechnung klar aus."
+      }
+    ]
   }
 }
