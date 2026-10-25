@@ -3,8 +3,6 @@ import { useTranslations } from "next-intl";
 export type StubName =
   | "work"
   | "contact"
-  | "login"
-  | "signup"
   | "impressum"
   | "privacy"
   | "terms";

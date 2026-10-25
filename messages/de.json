@@ -53,7 +53,8 @@
     "newsletter": "Newsletter",
     "newsletterPlaceholder": "Ihre E-Mail",
     "subscribe": "Anmelden",
-    "newsletterNote": "Double-Opt-in. Jederzeit abbestellbar."
+    "newsletterNote": "Double-Opt-in. Jederzeit abbestellbar.",
+    "newsletterSent": "Fast geschafft: Prüfen Sie Ihr Postfach und bestätigen Sie Ihre E-Mail-Adresse."
   },
   "Pages": {
     "soon": "Diese Seite folgt in Kürze.",
@@ -342,5 +343,121 @@
         "a": "Siehe Hinweis unter den Preisen. Wir weisen es in jedem Angebot und jeder Rechnung klar aus."
       }
     ]
+  },
+  "Forms": {
+    "name": "Name",
+    "email": "E-Mail",
+    "company": "Unternehmen",
+    "phone": "Telefon",
+    "optional": "optional",
+    "country": "Land",
+    "countryDE": "Deutschland",
+    "countryGR": "Griechenland",
+    "countryOther": "Anderes",
+    "consent": "Ich bin damit einverstanden, dass meine Daten zur Bearbeitung meiner Anfrage verarbeitet werden.",
+    "privacy": "Datenschutzerklärung",
+    "send": "Senden",
+    "sending": "Wird gesendet …",
+    "close": "Schließen",
+    "errors": {
+      "validation": "Bitte prüfen Sie Ihre Angaben und versuchen Sie es erneut.",
+      "rate_limited": "Zu viele Anfragen. Bitte versuchen Sie es in einigen Minuten erneut.",
+      "captcha": "Die Spam-Prüfung ist fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "not_configured": "Dieses Formular ist derzeit nicht verfügbar. Bitte schreiben Sie uns per E-Mail.",
+      "server": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+    }
+  },
+  "Negotiate": {
+    "title": "Preis verhandeln",
+    "intro": "Erzählen Sie uns von Ihrem Projekt. Wir antworten innerhalb eines Werktags.",
+    "budget": "Budget",
+    "budgetMax": "{amount}+",
+    "description": "Projektbeschreibung",
+    "launch": "Gewünschter Starttermin",
+    "contact": "Bevorzugter Kontakt",
+    "contact_email": "E-Mail",
+    "contact_phone": "Telefon",
+    "contact_whatsapp": "WhatsApp",
+    "successTitle": "Vielen Dank.",
+    "successText": "Wir haben Ihre Anfrage erhalten und melden uns innerhalb eines Werktags."
+  },
+  "Quote": {
+    "cta": "Angebot anfragen",
+    "title": "Angebot anfragen",
+    "intro": "Ihre Konfiguration ist angehängt. Hinterlassen Sie Ihre Daten, wir senden Ihnen ein Festpreisangebot.",
+    "message": "Möchten Sie uns noch etwas mitteilen?",
+    "haveAccount": "Sie haben ein Konto?",
+    "login": "Anmelden, um es zu speichern",
+    "saved": "In Ihrem Konto gespeichert.",
+    "viewDashboard": "Dashboard ansehen",
+    "successTitle": "Vielen Dank.",
+    "successText": "Wir haben Ihre Konfiguration erhalten und senden Ihnen in Kürze ein Festpreisangebot."
+  },
+  "Newsletter": {
+    "confirmedTitle": "Sie sind angemeldet.",
+    "confirmedText": "Danke für die Bestätigung Ihrer E-Mail-Adresse.",
+    "invalidTitle": "Link ungültig.",
+    "invalidText": "Dieser Bestätigungslink ist ungültig oder wurde bereits verwendet.",
+    "home": "Zur Startseite"
+  },
+  "Auth": {
+    "loginTitle": "Willkommen zurück",
+    "loginSub": "Melden Sie sich an, um Angebote und Projekt zu sehen.",
+    "signupTitle": "Konto erstellen",
+    "signupSub": "Speichern Sie Ihre Angebote und verfolgen Sie Ihr Projekt.",
+    "name": "Name",
+    "optional": "optional",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "passwordHint": "Mindestens 8 Zeichen",
+    "submitLogin": "Anmelden",
+    "submitSignup": "Konto erstellen",
+    "or": "oder",
+    "magic": "Magic Link per E-Mail senden",
+    "google": "Weiter mit Google",
+    "noAccount": "Noch kein Konto?",
+    "signupLink": "Loslegen",
+    "haveAccount": "Schon ein Konto?",
+    "loginLink": "Anmelden",
+    "notices": {
+      "invalid": "E-Mail oder Passwort ist falsch.",
+      "generic": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+      "notConfigured": "Die Anmeldung ist noch nicht verfügbar.",
+      "linkSent": "Prüfen Sie Ihr Postfach: Wir haben Ihnen einen Anmeldelink gesendet.",
+      "confirmEmail": "Fast geschafft: Bestätigen Sie Ihre E-Mail über den Link, den wir Ihnen gesendet haben.",
+      "link": "Dieser Link ist ungültig oder abgelaufen. Bitte versuchen Sie es erneut."
+    }
+  },
+  "Dashboard": {
+    "title": "Ihr Dashboard",
+    "signedInAs": "Angemeldet als {email}",
+    "signOut": "Abmelden",
+    "quotes": "Ihre Angebote",
+    "noQuotes": "Noch keine Angebote.",
+    "openConfigurator": "Im Konfigurator öffnen",
+    "custom": "Individuelle Anfrage",
+    "addonCount": "{count, plural, one {# Add-on} other {# Add-ons}}",
+    "month": "Monat",
+    "budget": "Budget: {range} €",
+    "status": {
+      "new": "Eingegangen",
+      "in_review": "In Prüfung",
+      "sent": "Angebot gesendet",
+      "accepted": "Angenommen",
+      "declined": "Abgelehnt"
+    },
+    "project": "Projektstatus",
+    "steps": {
+      "briefing": "Briefing",
+      "design": "Design",
+      "build": "Umsetzung",
+      "review": "Abnahme",
+      "live": "Live"
+    },
+    "noProject": "Noch kein aktives Projekt. Ihr Fortschritt erscheint hier, sobald wir starten.",
+    "messages": "Nachrichten",
+    "messagesSoon": "Der Austausch mit dem Team folgt in Kürze.",
+    "invoices": "Rechnungen",
+    "invoicesSoon": "Ihre Rechnungen erscheinen hier."
   }
 }

@@ -156,12 +156,11 @@ export function Configurator() {
         </div>
 
         <Summary
-          pkg={pkg}
           pkgName={pkgName}
           totals={totals}
           names={names}
           eur={eur}
-          query={serializeSelection(sel)}
+          selection={sel}
           hasAddons={totals.lines.length > 0 || totals.rush > 0}
           onReset={() => commit({ pkg: DEFAULT_PACKAGE, items: {} })}
         />

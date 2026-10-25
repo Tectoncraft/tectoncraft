@@ -1,4 +1,5 @@
 import { useFormatter, useTranslations } from "next-intl";
+import { NegotiateDialog } from "@/components/forms/negotiate-dialog";
 import { Reveal, RevealHeading } from "@/components/reveal";
 import { packages, pricesInclude, smallBusinessExemption } from "@/config/pricing";
 import { Link } from "@/i18n/navigation";
@@ -58,10 +59,7 @@ export function Pricing() {
               <h3 className="text-2xl font-semibold tracking-tight md:text-3xl">{t("custom.title")}</h3>
               <p className="mt-3 text-base text-muted">{t("custom.text")}</p>
             </div>
-            {/* Opens the NegotiateDialog in Phase 5; links to the contact page until then. */}
-            <Link href="/contact" className="btn btn-primary">
-              {t("custom.cta")}
-            </Link>
+            <NegotiateDialog label={t("custom.cta")} />
           </article>
         </Reveal>
       </div>

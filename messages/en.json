@@ -53,7 +53,8 @@
     "newsletter": "Newsletter",
     "newsletterPlaceholder": "Your email",
     "subscribe": "Subscribe",
-    "newsletterNote": "Double opt-in. Unsubscribe anytime."
+    "newsletterNote": "Double opt-in. Unsubscribe anytime.",
+    "newsletterSent": "Almost done: check your inbox and confirm your email address."
   },
   "Pages": {
     "soon": "This page is coming soon.",
@@ -342,5 +343,121 @@
         "a": "See the note under the pricing. We state it clearly on every quote and invoice."
       }
     ]
+  },
+  "Forms": {
+    "name": "Name",
+    "email": "Email",
+    "company": "Company",
+    "phone": "Phone",
+    "optional": "optional",
+    "country": "Country",
+    "countryDE": "Germany",
+    "countryGR": "Greece",
+    "countryOther": "Other",
+    "consent": "I agree that my data is processed to answer my request.",
+    "privacy": "Privacy policy",
+    "send": "Send",
+    "sending": "Sending…",
+    "close": "Close",
+    "errors": {
+      "validation": "Please check your details and try again.",
+      "rate_limited": "Too many requests. Please try again in a few minutes.",
+      "captcha": "The spam check failed. Please try again.",
+      "not_configured": "This form isn't available right now. Please email us instead.",
+      "server": "Something went wrong. Please try again."
+    }
+  },
+  "Negotiate": {
+    "title": "Let's negotiate",
+    "intro": "Tell us about your project. We reply within one working day.",
+    "budget": "Budget",
+    "budgetMax": "{amount}+",
+    "description": "Project description",
+    "launch": "Desired launch date",
+    "contact": "Preferred contact",
+    "contact_email": "Email",
+    "contact_phone": "Phone",
+    "contact_whatsapp": "WhatsApp",
+    "successTitle": "Thank you.",
+    "successText": "We received your request and will get back to you within one working day."
+  },
+  "Quote": {
+    "cta": "Request this quote",
+    "title": "Request this quote",
+    "intro": "Your configuration is attached. Leave your details and we'll send a fixed quote.",
+    "message": "Anything we should know?",
+    "haveAccount": "Have an account?",
+    "login": "Log in to save it",
+    "saved": "Saved to your account.",
+    "viewDashboard": "View dashboard",
+    "successTitle": "Thank you.",
+    "successText": "We received your configuration and will send you a fixed quote soon."
+  },
+  "Newsletter": {
+    "confirmedTitle": "You're subscribed.",
+    "confirmedText": "Thanks for confirming your email address.",
+    "invalidTitle": "Link not valid.",
+    "invalidText": "This confirmation link is invalid or has already been used.",
+    "home": "Back to home"
+  },
+  "Auth": {
+    "loginTitle": "Welcome back",
+    "loginSub": "Log in to see your quotes and project.",
+    "signupTitle": "Create your account",
+    "signupSub": "Save your quotes and follow your project.",
+    "name": "Name",
+    "optional": "optional",
+    "email": "Email",
+    "password": "Password",
+    "passwordHint": "At least 8 characters",
+    "submitLogin": "Log in",
+    "submitSignup": "Create account",
+    "or": "or",
+    "magic": "Email me a magic link",
+    "google": "Continue with Google",
+    "noAccount": "No account yet?",
+    "signupLink": "Get started",
+    "haveAccount": "Already have an account?",
+    "loginLink": "Log in",
+    "notices": {
+      "invalid": "Email or password is incorrect.",
+      "generic": "Something went wrong. Please try again.",
+      "notConfigured": "Sign-in isn't available yet.",
+      "linkSent": "Check your inbox: we sent you a sign-in link.",
+      "confirmEmail": "Almost there: confirm your email with the link we sent you.",
+      "link": "That link is invalid or expired. Please try again."
+    }
+  },
+  "Dashboard": {
+    "title": "Your dashboard",
+    "signedInAs": "Signed in as {email}",
+    "signOut": "Sign out",
+    "quotes": "Your quotes",
+    "noQuotes": "No quotes yet.",
+    "openConfigurator": "Open in configurator",
+    "custom": "Custom request",
+    "addonCount": "{count, plural, one {# add-on} other {# add-ons}}",
+    "month": "mo",
+    "budget": "Budget: €{range}",
+    "status": {
+      "new": "Received",
+      "in_review": "In review",
+      "sent": "Quote sent",
+      "accepted": "Accepted",
+      "declined": "Declined"
+    },
+    "project": "Project status",
+    "steps": {
+      "briefing": "Briefing",
+      "design": "Design",
+      "build": "Build",
+      "review": "Review",
+      "live": "Live"
+    },
+    "noProject": "No active project yet. Your progress will appear here once we start.",
+    "messages": "Messages",
+    "messagesSoon": "Messaging with the team is coming soon.",
+    "invoices": "Invoices",
+    "invoicesSoon": "Your invoices will appear here."
   }
 }

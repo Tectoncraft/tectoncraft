@@ -1,8 +1,9 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { defaultLocale, LOCALE_COOKIE } from "@/config/site";
+import { refreshSession } from "@/lib/supabase/refresh-session";
 import { detectLocale, isBot, isLocale } from "@/lib/detect-locale";
 
-export function proxy(request: NextRequest) {
+export async function proxy(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
   const first = pathname.split("/")[1];
 
@@ -10,7 +11,11 @@ export function proxy(request: NextRequest) {
   if (isLocale(first)) {
     const headers = new Headers(request.headers);
     headers.set("X-NEXT-INTL-LOCALE", first);
-    return NextResponse.next({ request: { headers } });
+    const response = NextResponse.next({ request: { headers } });
+    const page = request.nextUrl.pathname.split("/")[2];
+    return page === "dashboard" || page === "login" || page === "signup"
+      ? refreshSession(request, response)
+      : response;
   }
 
   // Bots are never redirected by Accept-Language; x-default → /en.
@@ -34,5 +39,5 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!api|_next|_vercel|.*\\..*).*)"],
+  matcher: ["/((?!api|auth|_next|_vercel|.*\\..*).*)"],
 };

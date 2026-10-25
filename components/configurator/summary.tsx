@@ -2,22 +2,21 @@
 
 import { useTranslations } from "next-intl";
 import { useState } from "react";
-import { pricesInclude, smallBusinessExemption, type Package } from "@/config/pricing";
-import { Link } from "@/i18n/navigation";
-import type { Totals } from "@/lib/pricing";
+import { pricesInclude, smallBusinessExemption } from "@/config/pricing";
+import { QuoteRequest } from "@/components/forms/quote-request";
+import type { Selection, Totals } from "@/lib/pricing";
 
 interface Props {
-  pkg: Package;
   pkgName: string;
   totals: Totals;
   names: Record<string, string>;
   eur: (n: number) => string;
-  query: string;
+  selection: Selection;
   hasAddons: boolean;
   onReset: () => void;
 }
 
-export function Summary({ pkg, pkgName, totals, names, eur, query, hasAddons, onReset }: Props) {
+export function Summary({ pkgName, totals, names, eur, selection, hasAddons, onReset }: Props) {
   const t = useTranslations("Addons.summary");
   const a = useTranslations("Addons");
   const p = useTranslations("Pricing");
@@ -88,10 +87,7 @@ export function Summary({ pkg, pkgName, totals, names, eur, query, hasAddons, on
 
       <p className="mt-4 text-xs text-muted">{smallBusinessExemption ? p("vat.small") : p(`vat.${pricesInclude}`)}</p>
 
-      {/* Phase 5: saves to the account when logged in, otherwise opens the quote form. */}
-      <Link href={`/contact?${query}`} className="btn btn-primary mt-6 w-full" data-package={pkg.id}>
-        {t("cta")}
-      </Link>
+      <QuoteRequest selection={selection} />
       <div className="mt-3 flex justify-between text-sm">
         <button type="button" onClick={onReset} className="link-text text-muted">
           {t("reset")}
