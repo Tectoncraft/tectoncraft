@@ -2,7 +2,7 @@ import { setRequestLocale } from "next-intl/server";
 import { use } from "react";
 import { Hero } from "@/components/hero";
 import { IntroLoader } from "@/components/intro-loader";
-import { AddonsAnchor } from "@/components/sections/addons-anchor";
+import { AddonsSection } from "@/components/sections/addons";
 import { Faq } from "@/components/sections/faq";
 import { Intro } from "@/components/sections/intro";
 import { Pricing } from "@/components/sections/pricing";
@@ -19,7 +19,7 @@ export default function HomePage({ params }: PageProps<"/[locale]">) {
         <Intro />
         <Process />
         <Pricing />
-        <AddonsAnchor />
+        <AddonsSection />
         <Faq />
       </main>
     </>

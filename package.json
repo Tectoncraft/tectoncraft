@@ -41,7 +41,8 @@
   }
 =======
     "lint": "eslint .",
-    "typecheck": "next typegen && tsc --noEmit"
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "vitest run"
   },
   "devEngines": {
     "packageManager": {
@@ -69,7 +70,8 @@
     "eslint-config-next": "^16.4.3",
     "postcss": "^8.5.31",
     "tailwindcss": "^4.3.3",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.5"
   },
   "private": true
 >>>>>>> 09f129e (Phase 1: foundation scaffold)

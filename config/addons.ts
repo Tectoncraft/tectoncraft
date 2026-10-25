@@ -10,6 +10,8 @@ export type AddonCategory =
   | "care"
   | "service";
 
+export type AddonUnit = "page" | "language" | "each" | "round" | "session" | "pack";
+
 export interface Addon {
   id: string;
   category: AddonCategory;
@@ -20,6 +22,8 @@ export interface Addon {
   monthly?: number;
   /** Quantity stepper allowed. */
   qty?: { min: number; max: number };
+  /** Label for the price when it is per-unit (message key `Addons.units.*`). */
+  unit?: AddonUnit;
 }
 
 export const addonCategories: AddonCategory[] = [
@@ -35,12 +39,15 @@ export const addonCategories: AddonCategory[] = [
 
 const q = (max = 20) => ({ min: 1, max });
 
+/** Total languages the site supports (en/de/el); caps the extra-language add-on. */
+export const totalLanguages = 3;
+
 export const addons: Addon[] = [
   // Pages & content
-  { id: "extra-page", category: "pages", type: "one-time", price: 79, qty: q() },
-  { id: "extra-language", category: "pages", type: "one-time", price: 149, qty: q(3) },
-  { id: "copywriting", category: "pages", type: "one-time", price: 49, qty: q() },
-  { id: "translation", category: "pages", type: "one-time", price: 39, qty: q() },
+  { id: "extra-page", category: "pages", type: "one-time", price: 79, qty: q(), unit: "page" },
+  { id: "extra-language", category: "pages", type: "one-time", price: 149, qty: q(3), unit: "language" },
+  { id: "copywriting", category: "pages", type: "one-time", price: 49, qty: q(), unit: "page" },
+  { id: "translation", category: "pages", type: "one-time", price: 39, qty: q(), unit: "page" },
   { id: "blog", category: "pages", type: "one-time", price: 249 },
   { id: "portfolio", category: "pages", type: "one-time", price: 129 },
   { id: "faq", category: "pages", type: "one-time", price: 49 },
@@ -51,7 +58,7 @@ export const addons: Addon[] = [
   // Design & motion
   { id: "logo", category: "design", type: "one-time", price: 249 },
   { id: "brand-kit", category: "design", type: "one-time", price: 599 },
-  { id: "3d-sequence", category: "design", type: "one-time", price: 499, qty: q(5) },
+  { id: "3d-sequence", category: "design", type: "one-time", price: 499, qty: q(5), unit: "each" },
   { id: "loader", category: "design", type: "one-time", price: 199 },
   { id: "video-bg", category: "design", type: "one-time", price: 149 },
   { id: "illustrations", category: "design", type: "one-time", price: 199 },
@@ -61,8 +68,8 @@ export const addons: Addon[] = [
   // Shop & bookings
   { id: "booking", category: "shop", type: "one-time", price: 249 },
   { id: "shop", category: "shop", type: "one-time", price: 599 },
-  { id: "products-50", category: "shop", type: "one-time", price: 149, qty: q(10) },
-  { id: "payment", category: "shop", type: "one-time", price: 99, qty: q(4) },
+  { id: "products-50", category: "shop", type: "one-time", price: 149, qty: q(10), unit: "pack" },
+  { id: "payment", category: "shop", type: "one-time", price: 99, qty: q(4), unit: "each" },
   { id: "vouchers", category: "shop", type: "one-time", price: 149 },
   { id: "menu-qr", category: "shop", type: "one-time", price: 129 },
   { id: "listings", category: "shop", type: "one-time", price: 399 },
@@ -102,8 +109,8 @@ export const addons: Addon[] = [
 
   // Service
   { id: "rush", category: "service", type: "percent", price: 25 },
-  { id: "revision", category: "service", type: "one-time", price: 79, qty: q(10) },
-  { id: "training", category: "service", type: "one-time", price: 59, qty: q(10) },
+  { id: "revision", category: "service", type: "one-time", price: 79, qty: q(10), unit: "round" },
+  { id: "training", category: "service", type: "one-time", price: 59, qty: q(10), unit: "session" },
 ];
 
 export const addonById = (id: string): Addon | undefined =>
