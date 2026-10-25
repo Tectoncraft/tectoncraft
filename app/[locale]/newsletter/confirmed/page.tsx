@@ -10,7 +10,7 @@ export default async function Page({ params, searchParams }: PageProps<"/[locale
   const ok = (await searchParams).status === "ok";
 
   return (
-    <main className="mx-auto max-w-site px-6 pb-40 pt-40">
+    <main id="main" className="mx-auto max-w-site px-6 pb-40 pt-40">
       <h1 className="text-5xl font-semibold md:text-7xl">{ok ? t("confirmedTitle") : t("invalidTitle")}</h1>
       <p className="mt-8 max-w-xl text-muted">{ok ? t("confirmedText") : t("invalidText")}</p>
       <Link href="/" className="btn btn-secondary mt-10">

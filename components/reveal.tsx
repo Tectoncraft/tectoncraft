@@ -61,7 +61,8 @@ export function RevealHeading({
   const [ref, seen] = useInView<HTMLElement>();
   const words = children.split(" ");
   return (
-    <Tag ref={ref} className={className} aria-label={children}>
+    <Tag ref={ref} className={className}>
+      <span className="sr-only">{children}</span>
       {words.map((word, i) => (
         <span key={i} aria-hidden="true" className="inline-block overflow-hidden align-bottom">
           <span

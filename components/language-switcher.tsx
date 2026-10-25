@@ -34,7 +34,7 @@ export function LanguageSwitcher({
       {locales.map((l, i) => (
         <span key={l} className="inline-flex items-center gap-1">
           {i > 0 && (
-            <span aria-hidden="true" className="opacity-40">
+            <span aria-hidden="true" className="opacity-60">
               ·
             </span>
           )}
@@ -43,7 +43,7 @@ export function LanguageSwitcher({
             lang={l}
             aria-current={l === active ? "true" : undefined}
             onClick={() => select(l)}
-            className={`px-1 py-2 transition-opacity ${l === active ? "opacity-100" : "opacity-50 hover:opacity-100"}`}
+            className={`px-1 py-2 transition-opacity ${l === active ? "opacity-100" : "opacity-70 hover:opacity-100"}`}
           >
             {localeLabels[l]}
           </button>

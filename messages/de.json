@@ -23,7 +23,8 @@
     "login": "Anmelden",
     "getStarted": "Loslegen",
     "openMenu": "Menü öffnen",
-    "closeMenu": "Menü schließen"
+    "closeMenu": "Menü schließen",
+    "skip": "Zum Inhalt springen"
   },
   "Theme": {
     "toggle": "Helles/dunkles Design umschalten"
@@ -64,7 +65,10 @@
     "signup": "Loslegen",
     "impressum": "Impressum",
     "privacy": "Datenschutz",
-    "terms": "AGB"
+    "terms": "AGB",
+    "notFound": "Seite nicht gefunden",
+    "notFoundText": "Diese Seite existiert nicht oder wurde verschoben.",
+    "home": "Zur Startseite"
   },
   "Intro": {
     "statement": "Wir bauen schnelle, mehrsprachige Websites, die scharf aussehen, gut ranken und Besucher zu Kunden machen.",
@@ -305,7 +309,8 @@
       "rush": "Express-Lieferung (halbe Laufzeit)",
       "revision": "Zusätzliche Korrekturrunde",
       "training": "1-Stunden-Schulung"
-    }
+    },
+    "categoriesLabel": "Kategorien"
   },
   "Faq": {
     "title": "Gut zu wissen.",
@@ -459,5 +464,122 @@
     "messagesSoon": "Der Austausch mit dem Team folgt in Kürze.",
     "invoices": "Rechnungen",
     "invoicesSoon": "Ihre Rechnungen erscheinen hier."
+  },
+  "Cookies": {
+    "title": "Cookies: Sie entscheiden",
+    "text": "Wir verwenden nur die Cookies, die für den Betrieb dieser Website nötig sind. Optionale Analysen bleiben aus, solange Sie nicht zustimmen.",
+    "privacy": "Datenschutzerklärung",
+    "accept": "Alle akzeptieren",
+    "reject": "Optionale ablehnen",
+    "settings": "Einstellungen",
+    "save": "Auswahl speichern",
+    "necessary": "Notwendig",
+    "necessaryText": "Sprache, Design, Anmeldesitzung und Spam-Schutz. Immer aktiv.",
+    "analytics": "Analyse",
+    "analyticsText": "Anonyme Nutzungsstatistiken, die uns helfen, die Website zu verbessern. Standardmäßig aus."
+  },
+  "Legal": {
+    "notice": "Vorlage: Der rechtliche Text auf dieser Seite wird vom Betreiber geliefert und sollte von einer Fachperson geprüft werden. Dies ist keine Rechtsberatung.",
+    "todo": "Noch zu ergänzen",
+    "impressum": {
+      "sections": [
+        {
+          "h": "Anbieter",
+          "p": "Firmenname, Rechtsform, Straße, PLZ, Ort und Land."
+        },
+        {
+          "h": "Kontakt",
+          "p": "{email} · {phone}"
+        },
+        {
+          "h": "Vertreten durch",
+          "p": "Geschäftsführer oder Inhaber."
+        },
+        {
+          "h": "Handelsregister",
+          "p": "Registergericht und Registernummer, falls eingetragen."
+        },
+        {
+          "h": "Umsatzsteuer-ID",
+          "p": "Umsatzsteuer-Identifikationsnummer (§ 27a UStG) oder Hinweis zur Kleinunternehmerregelung."
+        },
+        {
+          "h": "Verantwortlich für den Inhalt",
+          "p": "Name und Anschrift nach § 18 Abs. 2 MStV."
+        },
+        {
+          "h": "Streitschlichtung",
+          "p": "Hinweis zum Verbraucherstreitbeilegungsverfahren (VSBG)."
+        }
+      ]
+    },
+    "privacy": {
+      "sections": [
+        {
+          "h": "Verantwortlicher",
+          "p": "Name, Anschrift und Kontaktdaten des Verantwortlichen."
+        },
+        {
+          "h": "Welche Daten wir verarbeiten",
+          "p": "Kontakt- und Angebotsformulare, Benutzerkonten, Newsletter-Anmeldungen und Server-Logs: was erhoben wird und warum."
+        },
+        {
+          "h": "Dienstleister",
+          "p": "Supabase (Datenbank und Anmeldung), Resend (E-Mail), Cloudflare Turnstile (Spam-Schutz) und Hosting-Anbieter: Zweck, Standort und Garantien."
+        },
+        {
+          "h": "Cookies und ähnliche Technologien",
+          "p": "Notwendige Cookies, optionale Analyse und wie Sie Ihre Auswahl jederzeit ändern."
+        },
+        {
+          "h": "Rechtsgrundlagen und Speicherdauer",
+          "p": "Rechtsgrundlage je Verarbeitung und Dauer der Speicherung."
+        },
+        {
+          "h": "Ihre Rechte",
+          "p": "Auskunft, Berichtigung, Löschung, Einschränkung, Übertragbarkeit, Widerspruch und Beschwerderecht bei einer Aufsichtsbehörde."
+        },
+        {
+          "h": "Datenschutzkontakt",
+          "p": "Ansprechpartner für Datenschutzanfragen."
+        }
+      ]
+    },
+    "terms": {
+      "sections": [
+        {
+          "h": "Geltungsbereich",
+          "p": "Für wen diese AGB gelten und welche Leistungen sie umfassen."
+        },
+        {
+          "h": "Leistungen und Pakete",
+          "p": "Was jedes Paket enthält und wie Add-ons vereinbart werden."
+        },
+        {
+          "h": "Preise und Zahlung",
+          "p": "Festpreise, Umsatzsteuer, Zahlungsplan (zum Beispiel 50 % zu Beginn, 50 % beim Launch) und Zahlungsfristen."
+        },
+        {
+          "h": "Lieferung und Korrekturen",
+          "p": "Zeitpläne, Korrekturrunden und Abnahme."
+        },
+        {
+          "h": "Mitwirkung des Kunden",
+          "p": "Vom Kunden gelieferte Inhalte, Freigaben und Materialien Dritter."
+        },
+        {
+          "h": "Eigentum und Nutzungsrechte",
+          "p": "Übertragung der Rechte nach vollständiger Zahlung und was beim Studio verbleibt."
+        },
+        {
+          "h": "Haftung",
+          "p": "Haftungsbegrenzung und Gewährleistung."
+        },
+        {
+          "h": "Anwendbares Recht und Gerichtsstand",
+          "p": "Geltendes Recht und Gerichtsstand."
+        }
+      ]
+    }
   }
 }

@@ -49,7 +49,7 @@ export default async function DashboardPage({ params }: PageProps<"/[locale]/das
   const card = "border border-line p-6 md:p-8";
 
   return (
-    <main className="mx-auto max-w-site px-6 pb-32 pt-36 md:pt-44">
+    <main id="main" className="mx-auto max-w-site px-6 pb-32 pt-36 md:pt-44">
       <div className="flex flex-wrap items-end justify-between gap-6">
         <div>
           <h1 className="text-5xl font-semibold md:text-7xl">{t("title")}</h1>

@@ -18,7 +18,11 @@ export function Pricing() {
       <RevealHeading className="max-w-3xl text-5xl font-semibold md:text-7xl">{t("title")}</RevealHeading>
       <p className="mt-6 max-w-xl text-muted">{t("sub")}</p>
 
-      <div className="-mx-6 mt-16 flex snap-x snap-mandatory gap-4 overflow-x-auto px-6 pb-4 md:mx-0 md:mt-24 md:grid md:grid-cols-3 md:overflow-visible md:px-0 md:pb-0 xl:grid-cols-5">
+      <div
+        role="region"
+        aria-label={t("title")}
+        tabIndex={0}
+        className="-mx-6 mt-16 flex snap-x snap-mandatory gap-4 overflow-x-auto px-6 pb-4 md:mx-0 md:mt-24 md:grid md:grid-cols-3 md:overflow-visible md:px-0 md:pb-0 xl:grid-cols-5">
         {packages.map((pkg, i) => {
           const name = t(`packages.${pkg.id}.name`);
           const features = t.raw(`packages.${pkg.id}.features`) as string[];

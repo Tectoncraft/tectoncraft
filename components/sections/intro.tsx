@@ -8,7 +8,7 @@ export function Intro() {
 
   return (
     <section id="about" className="mx-auto max-w-site px-6 py-24 md:py-40">
-      <RevealHeading as="p" className="max-w-5xl font-display text-4xl font-semibold leading-[1.05] tracking-tight md:text-6xl">
+      <RevealHeading className="max-w-5xl font-display text-4xl font-semibold leading-[1.05] tracking-tight md:text-6xl">
         {t("statement")}
       </RevealHeading>
       <div id="services" className="mt-20 grid gap-px border border-line bg-line md:mt-28 sm:grid-cols-2 lg:grid-cols-4">

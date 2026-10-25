@@ -117,7 +117,7 @@ export function Configurator() {
               placeholder={t("searchPlaceholder")}
               className="w-full border border-line bg-bg px-4 py-3 text-base outline-none placeholder:text-muted focus:border-fg"
             />
-            <div className="flex flex-wrap gap-2" role="group" aria-label={t("categories.pages")}>
+            <div className="flex flex-wrap gap-2" role="group" aria-label={t("categoriesLabel")}>
               <button type="button" aria-pressed={category === "all"} onClick={() => setCategory("all")} className={chip(category === "all")}>
                 {t("all")}
               </button>

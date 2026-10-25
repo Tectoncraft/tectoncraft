@@ -14,16 +14,16 @@ export function Process() {
         <RevealHeading className="max-w-3xl text-5xl font-semibold md:text-7xl">{t("title")}</RevealHeading>
         <ol className="mt-16 grid gap-6 md:mt-24 md:grid-cols-2 lg:grid-cols-4">
           {steps.map((key, i) => (
-            <Reveal key={key} delay={i * 80}>
-              <li className="h-full border border-line bg-bg p-8 transition-colors hover:border-fg">
+            <li key={key}>
+              <Reveal delay={i * 80} className="h-full border border-line bg-bg p-8 transition-colors hover:border-fg">
                 <span className="font-display text-6xl font-semibold tracking-tighter text-muted">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <h3 className="mt-10 text-2xl font-semibold tracking-tight">{t(`${key}.title`)}</h3>
                 <p className="mt-1 text-sm font-medium uppercase tracking-widest text-muted">{t(`${key}.time`)}</p>
                 <p className="mt-4 text-base text-muted">{t(`${key}.text`)}</p>
-              </li>
-            </Reveal>
+              </Reveal>
+            </li>
           ))}
         </ol>
 

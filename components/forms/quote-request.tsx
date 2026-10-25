@@ -4,7 +4,6 @@ import { useLocale, useTranslations } from "next-intl";
 import { useState, type FormEvent } from "react";
 import { Link } from "@/i18n/navigation";
 import { serializeSelection, type Selection } from "@/lib/pricing";
-import { createClient } from "@/lib/supabase/client";
 import { Modal } from "./dialog";
 import { Field, Honeypot, inputCls } from "./fields";
 import { Turnstile } from "./turnstile";
@@ -29,6 +28,7 @@ export function QuoteRequest({ selection }: { selection: Selection }) {
 
   async function onClick() {
     if (supabaseConfigured) {
+      const { createClient } = await import("@/lib/supabase/client");
       const { data } = await createClient().auth.getUser();
       if (data.user) {
         const res = await submit(payload({}));

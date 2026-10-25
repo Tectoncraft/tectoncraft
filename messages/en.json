@@ -23,7 +23,8 @@
     "login": "Log in",
     "getStarted": "Get started",
     "openMenu": "Open menu",
-    "closeMenu": "Close menu"
+    "closeMenu": "Close menu",
+    "skip": "Skip to content"
   },
   "Theme": {
     "toggle": "Toggle light/dark theme"
@@ -64,7 +65,10 @@
     "signup": "Get started",
     "impressum": "Impressum",
     "privacy": "Privacy",
-    "terms": "Terms"
+    "terms": "Terms",
+    "notFound": "Page not found",
+    "notFoundText": "This page doesn't exist or has moved.",
+    "home": "Back to home"
   },
   "Intro": {
     "statement": "We craft fast, multilingual websites that look sharp, rank well and turn visitors into customers.",
@@ -305,7 +309,8 @@
       "rush": "Rush delivery (half the timeline)",
       "revision": "Extra revision round",
       "training": "1-hour training session"
-    }
+    },
+    "categoriesLabel": "Categories"
   },
   "Faq": {
     "title": "Good to know.",
@@ -459,5 +464,122 @@
     "messagesSoon": "Messaging with the team is coming soon.",
     "invoices": "Invoices",
     "invoicesSoon": "Your invoices will appear here."
+  },
+  "Cookies": {
+    "title": "Cookies, your choice",
+    "text": "We use only the cookies needed to run this site. Optional analytics stay off unless you allow them.",
+    "privacy": "Privacy policy",
+    "accept": "Accept all",
+    "reject": "Reject optional",
+    "settings": "Settings",
+    "save": "Save choice",
+    "necessary": "Necessary",
+    "necessaryText": "Language, theme, sign-in session and spam protection. Always on.",
+    "analytics": "Analytics",
+    "analyticsText": "Anonymous usage statistics that help us improve the site. Off by default."
+  },
+  "Legal": {
+    "notice": "Template: the legal text on this page is supplied by the site owner and should be reviewed by a qualified lawyer. This is not legal advice.",
+    "todo": "To be supplied",
+    "impressum": {
+      "sections": [
+        {
+          "h": "Provider",
+          "p": "Company name, legal form, street, postcode, city and country."
+        },
+        {
+          "h": "Contact",
+          "p": "{email} · {phone}"
+        },
+        {
+          "h": "Represented by",
+          "p": "Managing director(s) or owner."
+        },
+        {
+          "h": "Commercial register",
+          "p": "Register court and registration number, if registered."
+        },
+        {
+          "h": "VAT ID",
+          "p": "VAT identification number (§ 27a UStG), or the small-business exemption note."
+        },
+        {
+          "h": "Responsible for content",
+          "p": "Name and address under § 18 (2) MStV."
+        },
+        {
+          "h": "Dispute resolution",
+          "p": "Statement on consumer dispute resolution proceedings (VSBG)."
+        }
+      ]
+    },
+    "privacy": {
+      "sections": [
+        {
+          "h": "Controller",
+          "p": "Name, address and contact details of the controller."
+        },
+        {
+          "h": "Data we process",
+          "p": "Contact and quote forms, user accounts, newsletter signups and server logs: what is collected and why."
+        },
+        {
+          "h": "Service providers",
+          "p": "Supabase (database and sign-in), Resend (email), Cloudflare Turnstile (spam protection) and the hosting provider: purpose, location and safeguards."
+        },
+        {
+          "h": "Cookies and similar technologies",
+          "p": "Necessary cookies, optional analytics and how to change your choice at any time."
+        },
+        {
+          "h": "Legal bases and retention",
+          "p": "Legal basis for each processing activity and how long data is kept."
+        },
+        {
+          "h": "Your rights",
+          "p": "Access, rectification, erasure, restriction, portability, objection and the right to lodge a complaint with a supervisory authority."
+        },
+        {
+          "h": "Privacy contact",
+          "p": "Contact for privacy requests."
+        }
+      ]
+    },
+    "terms": {
+      "sections": [
+        {
+          "h": "Scope",
+          "p": "Who these terms apply to and which services they cover."
+        },
+        {
+          "h": "Services and packages",
+          "p": "What each package includes and how add-ons are agreed."
+        },
+        {
+          "h": "Prices and payment",
+          "p": "Fixed prices, VAT treatment, payment schedule (for example 50% upfront, 50% at launch) and terms."
+        },
+        {
+          "h": "Delivery and revisions",
+          "p": "Timelines, revision rounds and acceptance."
+        },
+        {
+          "h": "Client responsibilities",
+          "p": "Content, approvals and third-party materials supplied by the client."
+        },
+        {
+          "h": "Ownership and rights of use",
+          "p": "Transfer of rights after final payment and what remains with the studio."
+        },
+        {
+          "h": "Liability",
+          "p": "Limits of liability and warranty."
+        },
+        {
+          "h": "Governing law and jurisdiction",
+          "p": "Applicable law and place of jurisdiction."
+        }
+      ]
+    }
   }
 }

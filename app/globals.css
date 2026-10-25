@@ -206,6 +206,11 @@ h3 {
   line-height: 1;
 }
 
+:focus-visible {
+  outline: 2px solid var(--fg);
+  outline-offset: 2px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -214,8 +219,14 @@ h3 {
   *::before,
   *::after {
     animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
 >>>>>>> 09f129e (Phase 1: foundation scaffold)
+  }
+  /* Show reveal-on-scroll content immediately. */
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
   }
 }
 

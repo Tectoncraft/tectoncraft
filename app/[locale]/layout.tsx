@@ -3,6 +3,7 @@ import { Inter, Inter_Tight } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { CookieBanner } from "@/components/cookie-banner";
 import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
 import { loaderFlagScript } from "@/lib/loader-flag";
@@ -16,11 +17,13 @@ const display = Inter_Tight({
   subsets: ["latin", "latin-ext", "greek"],
   variable: "--font-display",
   display: "swap",
+  preload: false,
 });
 const body = Inter({
   subsets: ["latin", "latin-ext", "greek"],
   variable: "--font-body",
   display: "swap",
+  preload: false,
 });
 
 export function generateStaticParams() {
@@ -46,6 +49,7 @@ export default async function LocaleLayout({
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
+  const nav = await getTranslations({ locale, namespace: "Nav" });
 
   return (
     <html
@@ -67,9 +71,16 @@ export default async function LocaleLayout({
           disableTransitionOnChange
         >
           <NextIntlClientProvider>
+            <a
+              href="#main"
+              className="sr-only z-[110] bg-btn-bg px-4 py-3 text-btn-fg focus:not-sr-only focus:fixed focus:left-3 focus:top-3"
+            >
+              {nav("skip")}
+            </a>
             <Navbar />
             {children}
             <Footer />
+            <CookieBanner />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>

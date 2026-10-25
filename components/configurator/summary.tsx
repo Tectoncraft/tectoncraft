@@ -65,8 +65,8 @@ export function Summary({ pkgName, totals, names, eur, selection, hasAddons, onR
             <dd className="tabular-nums">{eur(totals.rush)}</dd>
           </div>
         )}
-        {!hasAddons && <p className="text-sm text-muted">{t("none")}</p>}
       </dl>
+      {!hasAddons && <p className="mt-3 text-sm text-muted">{t("none")}</p>}
 
       <dl className="mt-6 space-y-3 border-t border-line pt-6">
         <div className="flex items-baseline justify-between gap-4">
