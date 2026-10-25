@@ -6,5 +6,59 @@
   "Hero": {
     "title": "Websites, built on solid ground.",
     "sub": "Design, development and 3D motion for businesses in Germany and Greece. Live in weeks, built to last."
+  },
+  "Nav": {
+    "main": "Main navigation",
+    "work": "Work",
+    "services": "Services",
+    "pricing": "Pricing",
+    "addons": "Add-ons",
+    "process": "Process",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "login": "Log in",
+    "getStarted": "Get started",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "Theme": {
+    "toggle": "Toggle light/dark theme"
+  },
+  "Lang": {
+    "label": "Language"
+  },
+  "Footer": {
+    "cta": "Ready to build?",
+    "getStarted": "Get started",
+    "studio": "Studio",
+    "about": "About",
+    "work": "Work",
+    "process": "Process",
+    "contact": "Contact",
+    "services": "Services",
+    "packages": "Packages",
+    "addons": "Add-ons",
+    "care": "Care plans",
+    "negotiate": "Negotiate",
+    "legal": "Legal",
+    "impressum": "Impressum",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookie settings",
+    "areas": "Germany · Greece",
+    "newsletter": "Newsletter",
+    "newsletterPlaceholder": "Your email",
+    "subscribe": "Subscribe",
+    "newsletterNote": "Double opt-in. Unsubscribe anytime."
+  },
+  "Pages": {
+    "soon": "This page is coming soon.",
+    "work": "Work",
+    "contact": "Contact",
+    "login": "Log in",
+    "signup": "Get started",
+    "impressum": "Impressum",
+    "privacy": "Privacy",
+    "terms": "Terms"
   }
 }

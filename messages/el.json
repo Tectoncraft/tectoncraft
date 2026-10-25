@@ -6,5 +6,59 @@
   "Hero": {
     "title": "Ιστοσελίδες με γερά θεμέλια.",
     "sub": "Σχεδιασμός, ανάπτυξη και 3D animation για επιχειρήσεις σε Γερμανία και Ελλάδα. Online σε λίγες εβδομάδες, φτιαγμένες να διαρκούν."
+  },
+  "Nav": {
+    "main": "Κύρια πλοήγηση",
+    "work": "Έργα",
+    "services": "Υπηρεσίες",
+    "pricing": "Τιμές",
+    "addons": "Add-ons",
+    "process": "Διαδικασία",
+    "faq": "Ερωτήσεις",
+    "contact": "Επικοινωνία",
+    "login": "Σύνδεση",
+    "getStarted": "Ξεκινήστε",
+    "openMenu": "Άνοιγμα μενού",
+    "closeMenu": "Κλείσιμο μενού"
+  },
+  "Theme": {
+    "toggle": "Εναλλαγή φωτεινού/σκούρου θέματος"
+  },
+  "Lang": {
+    "label": "Γλώσσα"
+  },
+  "Footer": {
+    "cta": "Έτοιμοι να χτίσουμε;",
+    "getStarted": "Ξεκινήστε",
+    "studio": "Studio",
+    "about": "Σχετικά",
+    "work": "Έργα",
+    "process": "Διαδικασία",
+    "contact": "Επικοινωνία",
+    "services": "Υπηρεσίες",
+    "packages": "Πακέτα",
+    "addons": "Add-ons",
+    "care": "Πακέτα συντήρησης",
+    "negotiate": "Διαπραγμάτευση",
+    "legal": "Νομικά",
+    "impressum": "Impressum",
+    "privacy": "Πολιτική απορρήτου",
+    "terms": "Όροι χρήσης",
+    "cookies": "Ρυθμίσεις cookies",
+    "areas": "Γερμανία · Ελλάδα",
+    "newsletter": "Newsletter",
+    "newsletterPlaceholder": "Το email σας",
+    "subscribe": "Εγγραφή",
+    "newsletterNote": "Double opt-in. Διαγραφή οποιαδήποτε στιγμή."
+  },
+  "Pages": {
+    "soon": "Η σελίδα θα είναι σύντομα διαθέσιμη.",
+    "work": "Έργα",
+    "contact": "Επικοινωνία",
+    "login": "Σύνδεση",
+    "signup": "Ξεκινήστε",
+    "impressum": "Impressum",
+    "privacy": "Πολιτική απορρήτου",
+    "terms": "Όροι χρήσης"
   }
 }

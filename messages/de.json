@@ -6,5 +6,59 @@
   "Hero": {
     "title": "Websites mit festem Fundament.",
     "sub": "Design, Entwicklung und 3D-Animation für Unternehmen in Deutschland und Griechenland. In wenigen Wochen online – gebaut für Jahre."
+  },
+  "Nav": {
+    "main": "Hauptnavigation",
+    "work": "Projekte",
+    "services": "Leistungen",
+    "pricing": "Preise",
+    "addons": "Add-ons",
+    "process": "Ablauf",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "login": "Anmelden",
+    "getStarted": "Loslegen",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
+  },
+  "Theme": {
+    "toggle": "Helles/dunkles Design umschalten"
+  },
+  "Lang": {
+    "label": "Sprache"
+  },
+  "Footer": {
+    "cta": "Bereit zu bauen?",
+    "getStarted": "Loslegen",
+    "studio": "Studio",
+    "about": "Über uns",
+    "work": "Projekte",
+    "process": "Ablauf",
+    "contact": "Kontakt",
+    "services": "Leistungen",
+    "packages": "Pakete",
+    "addons": "Add-ons",
+    "care": "Wartungspakete",
+    "negotiate": "Individuelles Angebot",
+    "legal": "Rechtliches",
+    "impressum": "Impressum",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "cookies": "Cookie-Einstellungen",
+    "areas": "Deutschland · Griechenland",
+    "newsletter": "Newsletter",
+    "newsletterPlaceholder": "Ihre E-Mail",
+    "subscribe": "Anmelden",
+    "newsletterNote": "Double-Opt-in. Jederzeit abbestellbar."
+  },
+  "Pages": {
+    "soon": "Diese Seite folgt in Kürze.",
+    "work": "Projekte",
+    "contact": "Kontakt",
+    "login": "Anmelden",
+    "signup": "Loslegen",
+    "impressum": "Impressum",
+    "privacy": "Datenschutz",
+    "terms": "AGB"
   }
 }

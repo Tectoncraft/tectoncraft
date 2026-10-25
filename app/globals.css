@@ -218,3 +218,65 @@ h3 {
 >>>>>>> 09f129e (Phase 1: foundation scaffold)
   }
 }
+
+/* Buttons: solid / outline, with a subtle fill-swap on hover. */
+@layer components {
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 2.75rem;
+    padding: 0 1.25rem;
+    border: 1px solid var(--btn-bg);
+    border-radius: 4px;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 0%;
+    transition:
+      background-size 0.28s ease,
+      color 0.28s ease;
+  }
+  .btn:hover {
+    background-size: 100% 100%;
+  }
+  .btn-primary {
+    background-color: var(--btn-bg);
+    background-image: linear-gradient(var(--bg), var(--bg));
+    color: var(--btn-fg);
+  }
+  .btn-primary:hover {
+    color: var(--fg);
+  }
+  .btn-secondary {
+    border-color: var(--fg);
+    background-color: transparent;
+    background-image: linear-gradient(var(--fg), var(--fg));
+    color: var(--fg);
+  }
+  .btn-secondary:hover {
+    color: var(--bg);
+  }
+  /* For use on inverted (--fg) surfaces such as the footer. */
+  .btn-inverse {
+    border-color: var(--bg);
+    background-color: var(--bg);
+    background-image: linear-gradient(var(--fg), var(--fg));
+    color: var(--fg);
+  }
+  .btn-inverse:hover {
+    color: var(--bg);
+  }
+  .link-text {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    transition: opacity 0.2s;
+  }
+  .link-text:hover {
+    opacity: 0.6;
+  }
+}

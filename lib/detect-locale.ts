@@ -51,3 +51,8 @@ export function detectLocale({ cookie, acceptLanguage, country }: DetectInput): 
 }
 
 export { LOCALE_COOKIE };
+
+/** Client-side: remember the visitor's explicit choice for a year (SPEC §2). */
+export function setLocaleCookie(locale: Locale, maxAge: number) {
+  document.cookie = `${LOCALE_COOKIE}=${locale}; path=/; max-age=${maxAge}; samesite=lax`;
+}
